@@ -4,7 +4,7 @@
 const CONFIG = {
   // Base URL of the FastAPI Backend
   // Change this to your deployed backend URL in production (e.g. 'https://api.yourdomain.com')
-  API_BASE_URL: window.ENV_API_URL || 'http://localhost:8000',
+  API_BASE_URL: 'https://ai-testing-assistant-backend.onrender.com',
 
   // LocalStorage keys
   TOKEN_KEY: 'ai_tester_token',
